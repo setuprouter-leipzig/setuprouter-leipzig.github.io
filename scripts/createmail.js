@@ -10,3 +10,5 @@ let i = "com";
 console.log(a + b + c + d + e + f + g + h + i);
 document.getElementById("mail").innerText = a + b + c + d + e + f + g + h + i;
 document.getElementById("mail").href = "mai" + "lto" + ":" + a + b + c + d + e + f + g + h + i;
+document.getElementById("chemieAnmeldung").href = "mai" + "lto" + ":" + a + b + c + d + e + f + g + h + i + "?subject=Chemie-Nachhilfekurs%20anmelden&body=Ihre%20ID%20im%20Telegramm:";
+document.getElementById("infoAnmeldung").href = "mai" + "lto" + ":" + a + b + c + d + e + f + g + h + i + "?subject=Informatik-Nachhilfekurs%20anmelden&body=Ihre%20ID%20im%20Telegramm:";
